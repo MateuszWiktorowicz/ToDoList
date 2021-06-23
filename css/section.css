@@ -1,3 +1,10 @@
 .section {
+    padding: 5px 20px;
+    background-color: white;
+    margin: 10px 0 0 0;
 
+};
+.section__header {
+    margin: 20px;
+    padding: 10px;
 };
