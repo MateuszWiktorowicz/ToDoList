@@ -1,0 +1,15 @@
+.tasksList {
+    padding: 5px;
+}
+
+.list__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+}
+
+
+.doneTask {
+    text-decoration: line-through;
+
+}
