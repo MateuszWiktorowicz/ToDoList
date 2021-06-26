@@ -5,3 +5,17 @@
     grid-template-columns: 1fr auto;
     gap: 20px;
 }
+
+.form__button{
+    color: white;
+    background-color: hsl(180, 100%, 25%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.form__button:hover {
+    background-color: hsl(180, 100%, 30%);
+}
+.form__button:active {
+    background-color: hsl(180, 100%, 35%);
+}

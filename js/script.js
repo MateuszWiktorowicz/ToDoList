@@ -1,16 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "wynieść śmieci",
-            done: false,
-
-        },
-        {
-            content: "pobiegać",
-            done: true,
-
-        },
-    ];
+    const tasks = [];
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
