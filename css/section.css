@@ -11,3 +11,7 @@
     border-bottom: solid 1px  hsl(0, 0%, 93%);
  
 }
+
+.section__container {
+    display: grid;
+}

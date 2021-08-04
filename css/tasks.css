@@ -14,6 +14,10 @@
     word-break: break-all;
 }
 
+.list__item--hidden {
+    display: none;
+}
+
 .doneTask {
     text-decoration: line-through;
 }
