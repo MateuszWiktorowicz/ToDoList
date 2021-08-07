@@ -1,12 +1,15 @@
 .buttons {
     display: flex;
    flex-wrap: wrap;
+   
+   
 }
 
-.buttons-button {
+.buttons__button {
     background: transparent;
     color: teal;
     border: none;
     margin: 0 0 0 20px;
     transition: color 0.3s;
+    cursor: pointer;
 }

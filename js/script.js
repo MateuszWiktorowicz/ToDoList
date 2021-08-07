@@ -47,8 +47,8 @@ const toogleDoneTask = (taskIndex) => {
 };
 
 const markAllTasksDone = () => {
-    tasks = tasks.map((tasks) => ({
-        ...tasks,
+    tasks = tasks.map((task) => ({
+        ...task,
         done: true,
     }));
     render();
@@ -83,11 +83,11 @@ const renderButtons = () => {
     }
 
     buttonsElement.innerHTML = `
-    <button class="buttons_button  js-toggleHideDoneTasks">
+    <button class=" buttons__button  js-toggleHideDoneTasks">
     ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
     </button>
     <button
-    class="buttons_button js-markAllDone"
+    class="buttons__button js-markAllDone"
     ${tasks.every(({ done }) => done) ? "disabled" : ""}
     >
     Ukończ wszystkie
